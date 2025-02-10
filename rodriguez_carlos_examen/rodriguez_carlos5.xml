@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE contabilidad [
+    <!-- Había que crear una etiqueta para contabilidad que diga que 
+    puede haber una o más etiquetas de apunte dentro-->
+    <!ELEMENT contabilidad (apunte+)>
+    <!-- La etiqueta de contabilidad se tendría que llamar apunte-->
+    <!ELEMENT apunte ((ingreso | gasto)*)>
+    <!ELEMENT fecha (#PCDATA)>
+    <!ELEMENT canƟdad (#PCDATA)>
+    <!ELEMENT concepto (#PCDATA)>
+]>
+<contabilidad>
+    <apunte>
+    <ingreso />
+        <fecha>24 de febrero de 2011 </fecha>
+        <canƟdad>1800,00 €</canƟdad>
+        <concepto>Salario</concepto>
+    </apunte>
+    <apunte>
+        <gasto />
+        <fecha>28 de febrero de 2011</fecha>
+        <canƟdad>74,25 €</canƟdad>
+        <concepto>Recibo luz</concepto>
+    </apunte>
+</contabilidad>

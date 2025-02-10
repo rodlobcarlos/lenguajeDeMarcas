@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coches SYSTEM "ej.1.1.dtd">
+<coches>
+    <coche matricula="1234MMM">
+        <marca>Seat</marca>
+        <modelo>Leon</modelo>
+        <puertas>5</puertas>
+        <color>Rojo</color>
+        <precio>20000</precio>
+    </coche>
+    <coche matricula="4321MMM">
+        <marca>kia</marca>
+        <modelo>Ceed</modelo>
+        <puertas>3</puertas>
+        <color>Negro</color>
+        <precio>10000</precio>
+    </coche>
+</coches>

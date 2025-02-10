@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE ViajeTuristico [
+    <!ELEMENT ViajeTuristico (Clientes, FechaInicio, FechaFin, Origen, Destinos)>
+    <!ELEMENT Clientes (Nombre, Apellido)>
+    <!ELEMENT Nombre (#PCDATA)>
+    <!ELEMENT Apellido (#PCDATA)>
+    <!ELEMENT FechaInicio (#PCDATA)>
+    <!ELEMENT FechaFin (#PCDATA)>
+    <!ELEMENT Origen (#PCDATA)>
+    <!ELEMENT Destinos (Destino+)>
+    <!ELEMENT Destino (Ciudad, Hotel, NumeroNoches)>
+    <!ELEMENT Ciudad (#PCDATA)>
+    <!ELEMENT Hotel (#PCDATA)>
+    <!ELEMENT NumeroNoches (#PCDATA)>
+]>
+<ViajeTuristico>
+    <Clientes>
+        <Nombre>Carlos</Nombre>
+        <Apellido>Rodríguez</Apellido>
+    </Clientes>
+    <FechaInicio>13/01/2025</FechaInicio>
+    <FechaFin>30/01/2025</FechaFin>
+    <Origen>Sevilla</Origen>
+    <Destinos>
+        <Destino>
+            <Ciudad>Madrid</Ciudad>
+            <Hotel>Safestay Madrid Central</Hotel>
+            <NumeroNoches>5</NumeroNoches>
+        </Destino>
+        <Destino>
+            <Ciudad>Extremadura</Ciudad>
+            <Hotel>Hotel Rural Olivenza Palacio</Hotel>
+            <NumeroNoches>3</NumeroNoches>
+        </Destino>
+        <Destino>
+            <Ciudad>Galicia</Ciudad>
+            <Hotel>Hotel Rural o cruce do Burgo</Hotel>
+            <NumeroNoches>3</NumeroNoches>
+        </Destino>
+    </Destinos>
+</ViajeTuristico> 
