@@ -1,0 +1,29 @@
+{
+    "empresa": {
+        "empleados": {
+            "empleado": [
+                {
+                    "nombre": "Ana López",
+                    "departemento": "recursos humanos",
+                    "edad": 34,
+                    "puesto": "gerente",
+                    "salario": 3200
+                },
+                {
+                    "nombre": "Carlos Pérez",
+                    "departemento": "Desarrollo",
+                    "edad": 29,
+                    "puesto": "Programador",
+                    "salario": 2700
+                },
+                {
+                    "nombre": "María García",
+                    "departemento": "marketing",
+                    "edad": 41,
+                    "puesto": "directora",
+                    "salario": 4000
+                }
+            ]
+        }
+    }
+}

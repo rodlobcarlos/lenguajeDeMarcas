@@ -1,0 +1,28 @@
+{
+    "biblioteca": [
+        {
+            "titulo": "Cien años de soledad",
+            "autor": "Gabriel García Márquez",
+            "anio": 1967,
+            "genero": "Realismo mágico",
+            "calificacion": 5,
+            "disponible": true
+        },
+        {
+            "titulo": "1984",
+            "autor": "George Orwell",
+            "anio": 1949,
+            "genero": "Distopía",
+            "calificacion": 4,
+            "disponible": false
+        },
+        {
+            "titulo": "El principito",
+            "autor": "Antoine de Saint-Exupéry",
+            "anio": 1943,
+            "genero": "Fábula",
+            "calificacion": 5,
+            "disponible": true
+        }
+    ]
+}

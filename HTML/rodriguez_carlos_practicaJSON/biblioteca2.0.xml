@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<biblioteca>
+    <libro>
+        <titulo>Cien años de soledad</titulo>
+        <autor>Gabriel García Márquez</autor>
+        <año>1967</año>
+        <genero>Realismo mágico</genero>
+        <calificacion>5</calificacion>
+        <disponible>true</disponible>
+    </libro>
+    <libro>
+        <titulo>1984</titulo>
+        <autor>George Orwell</autor>
+        <año>1949</año>
+        <genero>Distopia</genero>
+        <calificacion>4</calificacion>
+        <disponible>false</disponible>
+    </libro>
+    <libro>
+        <titulo>El principito</titulo>
+        <autor>Antonie de Saint-Exupéry</autor>
+        <año>1943</año>
+        <genero>Fábula</genero>
+        <calificacion>5</calificacion>
+        <disponible>true</disponible>
+    </libro>
+</biblioteca>

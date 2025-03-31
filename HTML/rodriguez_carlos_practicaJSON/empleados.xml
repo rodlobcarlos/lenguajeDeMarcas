@@ -1,0 +1,25 @@
+<empresa>
+    <empleados>
+        <empleado>
+            <nombre>Ana López</nombre>
+            <departamento>Recursos Humanos</departamento>
+            <edad>34</edad>
+            <puesto>Gerente</puesto>
+            <salario>3200</salario>
+        </empleado>
+        <empleado>
+            <nombre>Carlos Pérez</nombre>
+            <departamento>Desarrollo</departamento>
+            <edad>29</edad>
+            <puesto>Programador</puesto>
+            <salario>2700</salario>
+        </empleado>
+        <empleado>
+            <nombre>María García</nombre>
+            <departamento>Marketing</departamento>
+            <edad>41</edad>
+            <puesto>Directora</puesto>
+            <salario>4000</salario>
+        </empleado>
+    </empleados>
+</empresa>
